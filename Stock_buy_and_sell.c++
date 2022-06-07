@@ -15,3 +15,8 @@ int main() {
   int maxPro = maxProfit(arr);
   cout << "Max profit is: " << maxPro << endl;
 }
+
+/*
+  TC => O(N)
+  SC => O(1)
+*/
