@@ -49,3 +49,8 @@ int main()
         cout << endl;
     }
 }
+
+/*
+    TC => O(NLOGN + N^3)
+    SC => O(N * 4)
+*/
