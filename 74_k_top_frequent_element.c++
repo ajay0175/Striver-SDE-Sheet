@@ -37,3 +37,8 @@ int main()
         cout << e << " ";
     }
 }
+
+/*
+    TC => O(N) // N IS A SIZE NUMS
+    SC => O(P + Q) P IS SIZE OF MAP AND Q IS THE SIZE OF MAX HEAP
+*/

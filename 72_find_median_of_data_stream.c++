@@ -2,7 +2,7 @@
 using namespace std;
 
 
-void addNum(int arr[], int n)
+void addNum(int *arr, int n)
 {
     priority_queue<int> s;
     priority_queue<int, vector<int>, greater<int>> g;
@@ -54,3 +54,8 @@ int main()
 
     return 0;
 }
+
+/*
+    TC => O(NlogN)
+    SC => O(N)
+*/

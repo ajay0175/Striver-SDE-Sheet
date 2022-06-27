@@ -31,8 +31,13 @@ int main()
     {
         int n; cin >> n;
         vector<int> temp(n);
-        
+
         for(int i = 0; i < n; i++) cin >> temp[i];
         nums.push_back(temp);
     }
 }
+
+/*
+    TC => O(K * NLOGN)
+    SC => O(M) // M IS SIZE OF MIN HEAP
+*/
