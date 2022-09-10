@@ -33,8 +33,3 @@ private:
         return 1 + max(lh, rh);
     }
 };
-
-/*
-    TC => O(N)
-    SC => O(1) [Extra space]  + O(H) [Recursion Stack space]
-*/
