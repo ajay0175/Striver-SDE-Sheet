@@ -35,6 +35,6 @@ public:
 };
 
 /*
-    TC => O(N)
+    TC => O(N) N is a no. of node
     SC => O(N) [Auxiliary space]
 */
