@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "vector": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "new": "cpp"
     },
     "git.enableCommitSigning": true,
     "git.ignoreLegacyWarning": false
