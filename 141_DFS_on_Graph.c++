@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution {
     private:
-     void dfs(int node, vector<int> &vis, vector<int> adj[], vector<int> &storeDfs) {
+    void dfs(int node, vector<int> &vis, vector<int> adj[], vector<int> &storeDfs) {
         storeDfs.push_back(node); 
         vis[node] = 1; 
 
