@@ -9,7 +9,7 @@ class Solution {
         for (int i = 0; i < V; i++)
         {
            for(auto &it : adj[i]) {
-                indegree[it]--;
+                indegree[it]++;
            }
         }
 
@@ -57,7 +57,7 @@ int main()
     addEdge(adj, 1, 2);
     addEdge(adj, 2, 0);
     addEdge(adj, 3, 4);
-    addEdge(adj, 4, 5);
+    addEdge(adj, 4, 5); 
    
     Solution obj;
     int num = obj.isCycle(5, adj);
